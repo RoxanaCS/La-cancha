@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+}
+.cancha{
+  background: #6A9C13;
+  width: 1500px;
+  height: 600px;
+  position: relative;
+}
+.borde{
+  width: 1215px;
+  height: 550px;
+  border: 3px solid white;
+  position: absolute;  /*usando posiciones relativas logramos que el diseño sea responsive, la posicion va a ser relativa a la cancha*/
+  left: 20px; /*usar porcentajes para que sea responsive*/
+  top: 23px;
+}
+
+.arco1{
+  width: 130px;
+  height: 230px;
+  border: 3px solid white;
+  position: absolute;
+  left: 20px;
+  top: 190px;
+}
+.arco2{
+  width: 130px;
+  height: 230px;
+  border: 3px solid white;
+  position: absolute;
+  right: 259px;
+  top: 190px;
+}
+.centro {
+  width: 230px;
+  height: 230px;
+  -moz-border-radius: 50%; /*para que funcione en mozilla*/
+  -webkit-border-radius: 50%; /*para que funcione en otros navegadores como opera, etc.*/
+  border-radius: 50%;
+  border: 3px solid white;
+  position: absolute;
+  left: 500px;
+  top: 190px;
+}
+.fa-futbol-o{
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  left: 700px;
+  top: 190px;
+}
