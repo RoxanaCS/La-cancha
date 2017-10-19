@@ -43,10 +43,36 @@ body{
   left: 500px;
   top: 190px;
 }
-.fa-futbol-o{
-  color: white;
-  font-size: 25px;
+.pelota1{
+  width: 25px;
+  height: 25px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
   position: absolute;
   left: 700px;
-  top: 190px;
+  top: 150px;
+}
+.pelota2{
+  width: 25px;
+  height: 25px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 150px;
+  top: 200px;
+}
+.pelota3{
+  width: 25px;
+  height: 25px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  left: 1050px;
+  top: 400px;
 }
